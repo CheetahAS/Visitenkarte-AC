@@ -1,4 +1,4 @@
-body {
+.light-theme {
   margin: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
@@ -7,6 +7,19 @@ body {
   color: #222222;
   background-color: #f2f4f6;
   background-image: url("img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.dark-theme {
+  margin: 0;
+  min-width: 960px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #fefefe;
+  background-color: #262727;
+  background-image: url("img/hero-bg-dark.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -44,6 +57,17 @@ body {
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
+}
+
+.theme-button {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #288be6;
+  color: #ffffff;
 }
 
 .hero-image {
@@ -116,6 +140,11 @@ body {
 
 .skill-css {
   background-image: url("img/icon-css.svg");
+}
+
+.skill-JS {
+  background-image: url("img/icon-js.png");
+  background-size: 25px;
 }
 
 .level {
